@@ -38,9 +38,11 @@ The methods for handling the modulo operation is located in _constCompiler.clj_ 
 In our language, the modulo operand is represented with a "%".
 Since the the language should be able to handle very big numbers(more than what long can represent) we choose to create
 a function called `mod-exp` to convert the numbers as _biginteger_ and perform modulo on each number separately before we parse the full expresison.
+
 **Interpreter**
 `mod-parser`, `mod-interpreter`, and `mod-eval` are the three methods responsible for interpreting the "%".
 The parser will transform it to the keyword :mod and it then evaluated by using clojure's _mod_ function.
+
 **Compiler**
 We use the _Opcodes/LREM_ to perform the remainder, which it works like modulo for positive numbers.
 For the negatives we create a function called `rem-sign` which transform a negative result to the correct positive one.
