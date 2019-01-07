@@ -1,36 +1,5 @@
-# project
+# clj-compiler-interpreter
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
+Compiler & Interpreter for a few simple languages. Written in Clojure for a Languages and Compilers course.
 ## Usage
-
-FIXME: explanation
-
-    $ java -jar project-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2019 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+    $ lein run
