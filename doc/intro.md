@@ -1,3 +1,20 @@
 # Introduction to project
 
-TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)
+File structure
+.
++-- src/
+|   +-- project/
+|   |   +-- addMulCompiler.clj
+|   |   +-- addMulInterpreter.clj
+|   |   +-- addSubCompiler.clj
+|   |   +-- addSubInterpreter.clj
+|   |   +-- arithInterpreter.clj
+|   |   +-- constCompiler.clj
+|   |   +-- constInterpreter.clj
+|   |   +-- core.clj
+|   |   +-- lang0Compiler.clj
+|   |   +-- lang0Interpreter.clj
+|   |   +-- lang1Compiler.clj
+|   |   +-- lang1Interpreter.clj
++-- doc/
++-- project.clj
