@@ -1,6 +1,7 @@
 # Introduction to project
 
 File structure
+```
 .
 +-- src/
 |   +-- project/
@@ -18,3 +19,4 @@ File structure
 |   |   +-- lang1Interpreter.clj
 +-- doc/
 +-- project.clj
+```
