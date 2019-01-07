@@ -4,6 +4,10 @@ Compiler & Interpreter for a few simple languages. Written in Clojure for a Lang
 ## Usage
     $ lein run
     
+## Authors
+Kristoffer Ek
+Vicent Dolz Martinez (Vicentico22)
+
 ## Documenation
 ### File structure
 ```
